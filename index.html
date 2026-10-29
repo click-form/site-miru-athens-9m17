@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miru Athens - Αρχική</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-neutral-50 text-neutral-900 font-sans">
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-neutral-200 h-20 flex items-center shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 w-full flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-tight text-neutral-900 flex items-center gap-2">
+                <span class="text-amber-600">■</span> Miru Athens
+            </a>
+            <nav class="hidden md:flex items-center gap-1">
+                <a href="index.html" class="bg-amber-500 text-white rounded-lg px-4 py-2 font-medium transition">Αρχική</a>
+                <a href="about.html" class="hover:bg-amber-50 text-neutral-700 rounded-lg px-4 py-2 font-medium transition">Σχετικά</a>
+                <a href="services.html" class="hover:bg-amber-50 text-neutral-700 rounded-lg px-4 py-2 font-medium transition">Μενού</a>
+                <a href="gallery.html" class="hover:bg-amber-50 text-neutral-700 rounded-lg px-4 py-2 font-medium transition">Γκαλερί</a>
+                <a href="booking.html" class="hover:bg-amber-50 text-neutral-700 rounded-lg px-4 py-2 font-medium transition">Κράτηση</a>
+                <a href="contacts.html" class="hover:bg-amber-50 text-neutral-700 rounded-lg px-4 py-2 font-medium transition">Επαφές</a>
+            </nav>
+            <div class="md:hidden">
+                <a href="contacts.html" class="text-sm font-bold bg-amber-500 text-white px-3 py-2 rounded-lg">Μενού</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="min-h-[80vh] relative flex items-center justify-center bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1920&q=80')">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative z-10 max-w-4xl mx-auto text-center px-6 text-white">
+            <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-6">Miru Athens</h1>
+            <p class="text-xl md:text-2xl font-light mb-8 text-neutral-200">Specialty coffee shop & breakfast & brunch in Athens, Greece</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="booking.html" class="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-xl text-lg font-semibold shadow-2xl transition">Κράτηση / Επικοινωνία</a>
+                <a href="services.html" class="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-xl text-lg font-semibold transition">Δείτε το Μενού</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="py-20 px-6 max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Δημοφιλείς Επιλογές</h2>
+                <p class="text-neutral-600 max-w-xl mx-auto">Ανακαλύψτε μερικές από τις καλύτερες προτάσεις μας σε καφέ και πρωινό στην καρδιά της Αθήνας.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden border border-neutral-100 flex flex-col">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=800&q=80" alt="Espresso" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <span class="text-xs font-bold uppercase tracking-wider text-amber-600 mb-2">Coffee</span>
+                        <h3 class="text-xl font-bold mb-2">Espresso</h3>
+                        <p class="text-neutral-600 text-sm mb-4 flex-grow">Classic single or double shot espresso with rich aroma and smooth body.</p>
+                        <div class="flex justify-between items-center mt-auto pt-4 border-t border-neutral-100">
+                            <span class="text-lg font-bold text-amber-600">€</span>
+                            <a href="services.html" class="text-sm font-semibold text-neutral-900 hover:text-amber-600 transition">Λεπτομέρειες →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden border border-neutral-100 flex flex-col">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80" alt="Batch Brew / Filter Coffee" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <span class="text-xs font-bold uppercase tracking-wider text-amber-600 mb-2">Coffee</span>
+                        <h3 class="text-xl font-bold mb-2">Batch Brew / Filter Coffee</h3>
+                        <p class="text-neutral-600 text-sm mb-4 flex-grow">Freshly brewed specialty filter coffee with distinct notes and aromas.</p>
+                        <div class="flex justify-between items-center mt-auto pt-4 border-t border-neutral-100">
+                            <span class="text-lg font-bold text-amber-600">€</span>
+                            <a href="services.html" class="text-sm font-semibold text-neutral-900 hover:text-amber-600 transition">Λεπτομέρειες →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden border border-neutral-100 flex flex-col">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=800&q=80" alt="Brunch Selection" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <span class="text-xs font-bold uppercase tracking-wider text-amber-600 mb-2">Breakfast & Brunch</span>
+                        <h3 class="text-xl font-bold mb-2">Brunch Selection</h3>
+                        <p class="text-neutral-600 text-sm mb-4 flex-grow">A variety of breakfast and brunch options prepared with fresh ingredients.</p>
+                        <div class="flex justify-between items-center mt-auto pt-4 border-t border-neutral-100">
+                            <span class="text-lg font-bold text-amber-600">€€</span>
+                            <a href="services.html" class="text-sm font-semibold text-neutral-900 hover:text-amber-600 transition">Λεπτομέρειες →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-amber-500 py-16 px-6 text-white text-center">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold mb-4">Επισκεφθείτε μας στην Αθήνα</h2>
+                <p class="text-lg mb-8 opacity-90">Aimou 35, Athens, Greece • Ανοιχτά καθημερινά 07:00 - 20:30</p>
+                <a href="booking.html" class="inline-block bg-neutral-900 hover:bg-neutral-800 text-white px-8 py-4 rounded-xl font-bold shadow-lg transition">Κλείστε Τραπέζι</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-neutral-900 text-neutral-300 py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">Miru Athens</h3>
+                <p class="text-sm text-neutral-400">Specialty coffee shop & breakfast & brunch in Athens, Greece.</p>
+            </div>
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">Επικοινωνία</h3>
+                <p class="text-sm text-neutral-400 mb-2">Aimou 35, Athens, Greece</p>
+                <p class="text-sm text-neutral-400 mb-2">+302130996539</p>
+                <p class="text-sm text-neutral-400">miruathens@gmail.com</p>
+            </div>
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">Ωράριο</h3>
+                <p class="text-sm text-neutral-400 mb-2">Δευτέρα - Κυριακή</p>
+                <p class="text-sm text-neutral-400">07:00 - 20:30</p>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto px-6 mt-8 pt-8 border-t border-neutral-800 text-center text-xs text-neutral-500">
+            © 2024 Miru Athens. All rights reserved.
+        </div>
+    </footer>
+<script>
+    document.getElementById('mobile-toggle')?.addEventListener('click', function() {
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+</body>
+</html>
